@@ -68,4 +68,12 @@
       display: none;
     }
   }
+
+  .burger {
+    display: none;
+
+    @media (max-width: 600px) {
+      display: block;
+    }
+  }
 }

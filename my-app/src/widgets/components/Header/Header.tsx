@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styles from "./Header.module.scss";
 import Image from "next/image";
-import { Text } from "@/shared";
+import { CgMenu } from "react-icons/cg";
 
 export const Header: FC = (): JSX.Element => {
   return (
@@ -40,6 +40,7 @@ export const Header: FC = (): JSX.Element => {
           </li>
         </ul>
       </nav>
+      <CgMenu size={35} className={styles.burger} />
     </header>
   );
 };
