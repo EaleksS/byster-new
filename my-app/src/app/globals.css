@@ -12,6 +12,7 @@ body {
 
 body {
   height: 200vh;
+  background: #202124;
 }
 
 a {
@@ -41,7 +42,7 @@ a {
   right: 0;
   width: 0;
   height: 0;
-  border-bottom: 50px solid #fff;
+  border-bottom: 50px solid #202124;
   border-left: 50px solid transparent;
 }
 
@@ -52,7 +53,7 @@ a {
   left: 0;
   width: 0;
   height: 0;
-  border-bottom: 50px solid #fff;
+  border-bottom: 50px solid #202124;
   border-right: 50px solid transparent;
 }
 
